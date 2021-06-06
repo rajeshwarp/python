@@ -5,6 +5,7 @@ from turtle import Turtle, Screen
 
 turtle.colormode(255)
 tim = Turtle()
+tim.speed("fastest")
 tim.penup()
 screen = Screen()
 colors = tuple(colorgram.extract('dam.jpg', 20))
