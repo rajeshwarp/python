@@ -34,7 +34,6 @@ class Race:
         while not game_end:
             for t in turtles_list:
                 t.forward(random.randint(0, 50))
-                print(t.position()[0])
                 if (t.position()[0]) > 380:
                     True
                     return t
